@@ -1,0 +1,10 @@
+
+services:
+  todoapp:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=app/auth/fast-todo-a0ceb-firebase-adminsdk-9fezn-0c82867738.json
