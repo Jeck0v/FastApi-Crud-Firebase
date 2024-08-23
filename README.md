@@ -3,13 +3,17 @@
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Docker](https://www.docker.com/) 
 - [Firebase](https://firebase.google.com/) 
+<hr>
 
-
+Retrieve your .json file from firebase and put it in the auth folder
+Then start the project
 ```bash
 docker-compose up --build
 ```
 You can test it: <br>
-https://localhost/docs
+https://localhost/docs <br>
+For authentication you can use:
+https://www.firebasejwt.com/
         
 
 ## Arnaud Fischer
