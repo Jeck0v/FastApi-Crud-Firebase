@@ -1,4 +1,4 @@
-'''from fastapi import HTTPException, Security
+from fastapi import HTTPException, Security
 from fastapi.security import HTTPBearer
 import firebase_admin
 from firebase_admin import auth, credentials
@@ -15,6 +15,3 @@ def verify_token(token: str):
 def get_current_user(token: str = Security(security)):
     decoded_token = verify_token(token.credentials)
     return decoded_token
-'''
-
-#Soon
