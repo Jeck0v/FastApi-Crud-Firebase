@@ -5,7 +5,7 @@
 - [Firebase](https://firebase.google.com/) 
 <hr>
 
-Retrieve your .json file from firebase and put it in the auth folder and the path to the json in docker-compose.yml. <br>
+Retrieve your .json file from firebase and put it in the auth folder, the path to the json in docker-compose.yml and in db/firebase.py <br>
 Then start the project
 ```bash
 docker-compose up --build
